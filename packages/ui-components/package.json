@@ -3,7 +3,7 @@
   "description": "Design System Components",
   "author": "Thiago Sousa <thiago.sousa@paylivre.com>",
   "license": "MIT",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
