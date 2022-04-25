@@ -1,0 +1,22 @@
+{
+  "name": "@thiago_brolly/testecom",
+  "description": "Design System Components",
+  "author": "Thiago Sousa <thiago.sousa@paylivre.com>",
+  "license": "MIT",
+  "version": "0.2.2",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "styled-components": ">=5.0.0"
+  }
+}
