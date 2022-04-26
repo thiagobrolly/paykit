@@ -3,5 +3,10 @@ export interface HeaderProps {
 }
 
 export const Header = (props: HeaderProps) => {
-  return <div>{props.label}<p>ABACAXI</p></div>;
+  return (
+    <div>
+      {props.label}
+      <p>ABACAXI</p>
+    </div>
+  );
 };
