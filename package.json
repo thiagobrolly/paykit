@@ -9,7 +9,8 @@
     "build": "lerna exec --ignore @thiago_brolly/app -- rollup -c ../../rollup.config.js ",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -25,6 +26,7 @@
     "@storybook/addon-links": "^6.4.22",
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.11",
+    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@types/jest": "^27.4.1",
     "@types/react": "^18.0.6",
@@ -46,6 +48,8 @@
     "eslint-plugin-storybook": "^0.5.11",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.0.0",
+    "jest-environment-jsdom": "^28.0.1",
+    "jest-styled-components": "^7.0.8",
     "lerna": "^4.0.0",
     "postcss": "^8.4.12",
     "prettier": "^2.5.1",
