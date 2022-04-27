@@ -1,6 +1,6 @@
 {
   "name": "@thiago_brolly/app",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@thiago_brolly/icons-b": "^0.5.0",
-    "@thiago_brolly/testecom": "^0.5.0",
+    "@thiago_brolly/testecom": "^0.5.1",
     "styled-components": "^5.3.5"
   }
 }
