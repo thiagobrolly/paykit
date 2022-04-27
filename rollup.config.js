@@ -32,7 +32,7 @@ export default [
         preserveModulesRoot: 'src',
       },
     ],
-    external: ['styled-components', 'react', 'react-dom'],
+    external: ['styled-components', 'react', 'react-dom', '@thiago_brolly/icons-b'],
     plugins: [
       peerDeps(),
       resolve(),

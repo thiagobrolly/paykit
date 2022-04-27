@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@thiago_brolly/icons-b": "^0.5.0",
-    "@thiago_brolly/testecom": "^0.5.0"
+    "@thiago_brolly/testecom": "^0.5.0",
+    "styled-components": "^5.3.5"
   }
 }

@@ -1,6 +1,6 @@
 import './styles/global.scss';
 import { Heading, Card } from '@thiago_brolly/testecom';
-import { ExampleDefault } from '@thiago_brolly/icons-b';
+import { ExampleDefault, IconUser } from '@thiago_brolly/icons-b';
 
 export function App() {
   return (
@@ -11,6 +11,7 @@ export function App() {
         Card
       </Card>
       <ExampleDefault size={100} color="green" />
+      <IconUser size={100} color="green" />
     </div>
   );
 }
