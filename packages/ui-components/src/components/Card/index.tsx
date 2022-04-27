@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleDefault } from '@thiago_brolly/icons-b';
+import { ExampleDefault, IconUser } from '@thiago_brolly/icons-b';
 import { Heading } from '../Heading';
 import { Separator } from '../Separator';
 import * as S from './styles';
@@ -39,6 +39,7 @@ export const Card = ({
   >
     {!!title && (
       <>
+        <IconUser size={100} color="green" />
         <Heading bold color="black" size="xlarge">
           {title}
         </Heading>
