@@ -15,7 +15,7 @@ export type HeadingProps = {
   marginRight?: string;
 } & React.HTMLAttributes<HTMLElement>;
 
-export const Heading: React.FC<HeadingProps> = ({
+export const Heading = ({
   children,
   as = 'h1',
   size = 'medium',
@@ -28,7 +28,7 @@ export const Heading: React.FC<HeadingProps> = ({
   marginLeft = '',
   marginRight = '',
   ...props
-}) => {
+}: HeadingProps) => {
   return (
     <Styled.Title
       as={as}

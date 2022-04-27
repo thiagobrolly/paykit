@@ -1,0 +1,1 @@
+export { ExampleDefault } from './ExampleDefault';

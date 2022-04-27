@@ -22,6 +22,7 @@
     "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
+    "@thiago_brolly/icons-b": "^0.0.0",
     "@thiago_brolly/testecom": "^0.3.0"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "@thiago_brolly/testecom",
-  "description": "Design System Components",
+  "name": "@thiago_brolly/icons-b",
+  "description": "Design System Icons",
   "author": "Thiago Sousa <thiago.sousa@paylivre.com>",
   "license": "MIT",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -18,8 +18,5 @@
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0",
     "styled-components": ">=5.0.0"
-  },
-  "dependencies": {
-    "@thiago_brolly/icons-b": "^0.0.0"
   }
 }
