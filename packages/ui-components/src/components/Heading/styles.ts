@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { HeadingProps } from '.';
-import { theme } from '../../styles/theme';
+import { theme, global } from '../../styles/theme';
 
 const mediaFont = () => css`
   @media (max-width: ${theme.breakpoints.tablet}) {
@@ -47,6 +47,7 @@ const titleCase = (uppercase: boolean) => css`
 `;
 
 export const Title = styled.h1<HeadingProps>`
+  ${global};
   ${({
     color,
     size,
@@ -60,7 +61,7 @@ export const Title = styled.h1<HeadingProps>`
   }) => css`
     font-family: ${bold
       ? theme.font.family.defaultBold
-      : theme.font.family.default};
+      : theme.font.family.default} !important;
     ${titleColor[color!]()};
     ${titleSize[size!]()};
     ${titleCase(uppercase!)};

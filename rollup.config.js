@@ -6,6 +6,7 @@ import postcss from 'rollup-plugin-postcss';
 import { terser } from 'rollup-plugin-terser';
 import renameNodeModules from 'rollup-plugin-rename-node-modules';
 import autoExternal from 'rollup-plugin-auto-external';
+import url from '@rollup/plugin-url';
 
 const { LERNA_ROOT_PATH } = process.env;
 
@@ -48,6 +49,10 @@ export default [
       terser(),
       autoExternal(),
       renameNodeModules('external'),
+      url({
+        include: ['**/*.otf', '**/*.woff', '**/*.ttf'],
+        limit: Infinity,
+      })
     ],
   },
 ];

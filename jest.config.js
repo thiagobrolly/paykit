@@ -1,10 +1,11 @@
 module.exports = {
   testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules'],
+  testPathIgnorePatterns: ['/node_modules', 'lib'],
   collectCoverage: true,
-  // collectCoverageFrom: ['packages/**/src/*.ts(x)'],
+  coveragePathIgnorePatterns: ["node_modules", "lib"],
   moduleNameMapper: {
     '.(css|less|scss)$': 'identity-obj-proxy',
+    '.(otf|ttf|woff)$': 'identity-obj-proxy',
   },
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
 };

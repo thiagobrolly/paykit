@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleDefault, IconUser } from '@thiago_brolly/icons-b';
+import { ExampleDefault, IconUser } from '@thiago_brolly/ui-icons-b';
 import { Heading } from '../Heading';
 import { Separator } from '../Separator';
 import * as S from './styles';
