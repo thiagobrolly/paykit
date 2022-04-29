@@ -1,6 +1,13 @@
 import './styles/global.scss';
 import { Heading, Card } from '@thiago_brolly/testecom';
-import { ExampleDefault, IconUser, IconArrow} from '@thiago_brolly/ui-icons-b';
+import {
+  ExampleDefault,
+  IconUser,
+  IconArrow,
+  PlOutlineWallet,
+  PlOutlineAppstore,
+  PlOutlineArrowDown,
+} from '@thiago_brolly/ui-icons-b';
 
 export function App() {
   return (
@@ -13,6 +20,9 @@ export function App() {
       <ExampleDefault size={100} color="green" />
       <IconUser size={100} color="green" />
       <IconArrow size={100} color="green" />
+      <PlOutlineWallet color="green" />
+      <PlOutlineAppstore color="green" />
+      <PlOutlineArrowDown color="green" />
     </div>
   );
 }

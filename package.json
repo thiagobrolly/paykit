@@ -10,7 +10,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "test:watch": "yarn test --watchAll"
+    "test:watch": "yarn test --watchAll",
+    "svgr": "npx @svgr/cli packages/ui-icons/src/assets --out-dir packages/ui-icons/src/components --icon --no-index  --no-dimensions --ignore-existing  --typescript"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",

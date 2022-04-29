@@ -18,9 +18,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
-    //"outDir": "lib",
-    // "declaration": true,
-    // "declarationDir": "lib",
   },
   "include": [
     "packages/**/src/*",

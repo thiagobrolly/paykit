@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleDefault, IconUser } from '@thiago_brolly/ui-icons-b';
+// import { ExampleDefault, IconUser } from '@thiago_brolly/ui-icons-b';
 import { Heading } from '../Heading';
 import { Separator } from '../Separator';
 import * as S from './styles';
@@ -39,13 +39,13 @@ export const Card = ({
   >
     {!!title && (
       <>
-        <IconUser size={100} color="green" />
+        {/* <IconUser size={100} color="green" /> */}
         <Heading bold color="black" size="xlarge">
           {title}
         </Heading>
         {!!subTitle && <S.SubTitle>{subTitle}</S.SubTitle>}
         <Separator color="#f0eff4" marginBottom="2rem" />
-        <ExampleDefault size={100} color="green" />
+        {/* <ExampleDefault size={100} color="green" /> */}
       </>
     )}
 

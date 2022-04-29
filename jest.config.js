@@ -1,4 +1,6 @@
 module.exports = {
+  // clearMocks: true,
+  // projects: ['<rootDir>/packages/**/jest.config.js'],
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules', 'lib'],
   collectCoverage: true,
